@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoursesApp.Payment"
+             Title="Payment"
+             BackgroundImageSource="bg.jpg">
+    
+    
+    <VerticalStackLayout>
+        <Label FontAttributes="Bold" FontSize="16" Text="PAYMENT DETAILS"></Label>
+        <Frame HeightRequest="660" CornerRadius="0" BackgroundColor="White" Opacity="0.8" BorderColor="White">
+            <VerticalStackLayout>
+
+                <Grid>
+                    <Image Margin="-140,0,180,10" HeightRequest="25" Source="radiobutton.jpg"></Image>
+                    <Label Margin="45"  FontAttributes="Bold" Text="Credit or debit card"></Label>
+                    <HorizontalStackLayout>
+                        <Image WidthRequest="230" Margin="40,78,0,0" Source="cards.jpg"></Image>
+                    </HorizontalStackLayout>
+
+                </Grid>
+                <Label  FontAttributes="Bold" Margin="26,30,0,10" Text="Cardholder's name"></Label>
+                <Frame HeightRequest="45" BackgroundColor="Transparent" Margin="0,0,0,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="330">
+                    <Entry  Margin="10,0,0,0" TextColor="Black" VerticalOptions="Center" Placeholder="Name on card" Keyboard="Email" />
+                </Frame>
+
+                <Label  FontAttributes="Bold" Margin="26,20,0,10" Text="Card number"></Label>
+                <Frame HeightRequest="45" BackgroundColor="Transparent" Margin="0,0,0,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="330">
+                    <Entry  Margin="10,0,0,0" VerticalOptions="Center" Placeholder="0000 0000 0000 0000" Keyboard="Email" />
+                </Frame>
+
+
+
+
+                <Label  FontAttributes="Bold"  Margin="26,20,0,10" Text="Expiry date"></Label>
+                <Frame HeightRequest="45" BackgroundColor="Transparent" Margin="0,0,160,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="130">
+                    <Entry  Margin="10,0,0,0" VerticalOptions="Center" Placeholder="MM / YY" Keyboard="Email" />
+                </Frame>
+
+                <Label  FontAttributes="Bold" Margin="26,20,0,10" Text="Security code"></Label>
+                <Frame HeightRequest="45" BackgroundColor="Transparent" Margin="0,0,160,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="130">
+                    <Entry  Margin="10,0,0,0" VerticalOptions="End" Placeholder="i" Keyboard="Email" />
+                </Frame>
+
+                <Grid>
+                    <Image Margin="-140,0,180,0" HeightRequest="20" Source="rbe.jpg"></Image>
+                    <Label FontAttributes="Bold" Margin="45" Text="Paypal"></Label>
+                    <HorizontalStackLayout>
+                        <Image WidthRequest="120" Margin="40,78,0,0" Source="paypal.jpg"></Image>
+                    </HorizontalStackLayout>
+
+                </Grid>
+
+            </VerticalStackLayout>
+        </Frame>
+
+
+
+
+
+        <Frame HeightRequest="280" CornerRadius="0" BackgroundColor="White" Opacity="0.8" BorderColor="White">
+            <VerticalStackLayout>
+
+                <Label FontAttributes="Bold" Margin="26,0,0,10" Text="Country"></Label>
+                <Frame HeightRequest="45" BackgroundColor="white" Margin="0,0,140,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="330">
+                    <Entry  Margin="10,0,0,0" TextColor="Black" VerticalOptions="Center" Placeholder="Country" Keyboard="Email" />
+                </Frame>
+
+                <Label FontAttributes="Bold" Margin="26,20,0,10" Text="Address"></Label>
+                <Frame HeightRequest="45" BackgroundColor="white" Margin="0,0,140,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="330">
+                    <Entry Margin="10,0,0,0" VerticalOptions="Center" Placeholder="Street address" Keyboard="Email" />
+                </Frame>
+
+                <HorizontalStackLayout Margin="14,20,0,0" Spacing="-120">
+
+                    <Frame HeightRequest="45" BackgroundColor="White" Margin="0,0,160,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="150">
+                        <Entry  Margin="10,0,0,0" VerticalOptions="Center" Placeholder="City" Keyboard="Email" />
+                    </Frame>
+
+                    <Frame HeightRequest="45" BackgroundColor="White" Margin="0,0,160,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="130">
+                        <Entry  Margin="10,0,0,0" VerticalOptions="End" Placeholder="Zip code" Keyboard="Email" />
+                    </Frame>
+
+                </HorizontalStackLayout>
+
+
+            </VerticalStackLayout>
+        </Frame>
+
+
+        <Frame HeightRequest="66" CornerRadius="0" BackgroundColor="White" Opacity="0.8" BorderColor="White">
+            <Label FontSize="16" FontAttributes="Bold" Text="Total amount                                             $ 10.99" >
+
+            </Label>
+        </Frame>
+
+        <Button Margin="0,20,0,0" Text="Make payment" WidthRequest="260" FontSize="20" BackgroundColor="#292643"></Button>
+
+
+    </VerticalStackLayout>
+</ContentPage>

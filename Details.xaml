@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoursesApp.Details"
+             Title="Details">
+    <VerticalStackLayout>
+        
+        <VerticalStackLayout Padding="30" BackgroundColor="White">
+            <HorizontalStackLayout Spacing="70">
+                <Image Source="back.jpg" WidthRequest="25"></Image>
+                <Label Text="Details" FontAttributes="Bold" HorizontalOptions="Center" FontSize="32"></Label>
+                <Image Source="emptyheart.jpg" WidthRequest="30" HorizontalOptions="End"></Image>
+            </HorizontalStackLayout>
+
+            <Frame WidthRequest="350" Padding="0" Margin="70">
+                <Image Source="dfund.jpg" WidthRequest="350" HeightRequest="200"></Image>
+            </Frame>
+
+            <Label Text="3D Design Fundamentals" FontAttributes="Bold" FontSize="24" Margin="0,-40,0,0"></Label>
+            <Label Text="22 lessons" FontSize="16" TextColor="Gray" FontAttributes="Bold" Margin="0,10,0,0"></Label>
+            <Button Text="$19.99" WidthRequest="90" CornerRadius="20" HorizontalOptions="Start" BackgroundColor="#4C2A85" Margin="0,20,0,0" ></Button>
+
+            <Label Text="About this course" FontAttributes="Bold" FontSize="20" Margin="0,30,0,0"></Label>
+
+            <Label Text="In this course, we will introduce you to the world 
+                             of 3D Design, where you will start learning from 
+                             the basics . If you are active, in less than 1 month 
+                             you can get to the expert level." Margin="0,30,0,0"></Label>
+            <Button Text="Start Course" FontSize="20" FontAttributes="Bold" WidthRequest="250" CornerRadius="10" HorizontalOptions="Center" BackgroundColor="#4C2A85" Margin="0,80,0,0" ></Button>
+
+        </VerticalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

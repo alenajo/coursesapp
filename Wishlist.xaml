@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoursesApp.Wishlist"
+             Title="Wishlist"
+             BackgroundImageSource="bg.jpg">
+    <VerticalStackLayout>
+        
+        <HorizontalStackLayout>
+
+            <Button Text=">" BackgroundColor="Transparent" TextColor="white" FontSize="50"></Button>
+
+
+            <Label Text="Wishlist" FontSize="30" TextColor="White" FontAttributes="Bold" Padding="30">
+            </Label>
+        </HorizontalStackLayout>
+
+
+        <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+            <HorizontalStackLayout>
+                <Image Source="proddesign.png"
+                        Margin="20,0,0,0" HeightRequest="100" WidthRequest="60"></Image>
+
+                <Grid>
+                    <Label Text="Product design" Padding="16" FontAttributes="Bold" />
+                    <Label Text="22 lessons" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="heart2.jpg" WidthRequest="90" HeightRequest="36" Margin="66,0,0,14"></Image>
+                    <Label Text="$ 19.99" Padding="0" Margin="80,50,0,10" FontAttributes="Bold" />
+                </Grid>
+
+            </HorizontalStackLayout>
+        </Frame>
+
+
+        <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+            <HorizontalStackLayout>
+                <Image Source="dfund.jpg" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                <Grid>
+                    <Label Text="3D Design Fundamentals" Padding="16" FontAttributes="Bold" />
+                    <Label Text="22 lessons" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="heart2.jpg" WidthRequest="90" HeightRequest="36" Margin="2,0,0,14"></Image>
+                    <Label Text="$ 19.99" Padding="0" Margin="20,50,0,10" FontAttributes="Bold" />
+                </Grid>
+
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+            <HorizontalStackLayout>
+                <Image Source="gamedesign.jpg" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                <Grid>
+                    <Label Text="Game Design" Padding="16" FontAttributes="Bold" />
+                    <Label Text="22 lessons" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="heart2.jpg" WidthRequest="90" HeightRequest="36" Margin="76,0,0,14"></Image>
+                    <Label Text="$ 19.99" Padding="0" Margin="90,50,0,10" FontAttributes="Bold" />
+                </Grid>
+
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+            <HorizontalStackLayout>
+                <Image Source="productdesign.jpg" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                <Grid>
+                    <Label Text="3D Product Design" Padding="16" FontAttributes="Bold" />
+                    <Label Text="22 lessons" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="heart2.jpg" WidthRequest="90" HeightRequest="36" Margin="50,0,0,14"></Image>
+                    <Label Text="$ 19.99" Padding="0" Margin="70,50,0,10" FontAttributes="Bold" />
+                </Grid>
+
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+            <HorizontalStackLayout>
+                <Image Source="dobjectshape.jpg" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                <Grid>
+                    <Label Text="3D Object Shape Course" Padding="16" FontAttributes="Bold" />
+                    <Label Text="22 lessons" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="heart2.jpg" WidthRequest="90" HeightRequest="36" Margin="13,0,0,14"></Image>
+                    <Label Text="$ 19.99" Padding="0" Margin="30,50,0,10" FontAttributes="Bold" />
+                </Grid>
+
+            </HorizontalStackLayout>
+        </Frame>
+        
+    </VerticalStackLayout>
+</ContentPage>

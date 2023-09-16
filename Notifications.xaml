@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoursesApp.Notifications"
+             Title="Notifications"
+             >
+
+    <VerticalStackLayout>
+        
+        <HorizontalStackLayout>
+
+            <Button Text=">" BackgroundColor="Transparent" TextColor="Black" FontSize="50"></Button>
+
+
+            <Label Text="Notifications" FontSize="30" FontAttributes="Bold" Padding="60">
+            </Label>
+        </HorizontalStackLayout>
+
+
+        <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+            <HorizontalStackLayout>
+                <Image Source="success.png" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                <Grid>
+                    <Label Text="Course successfully enrolled" Padding="16" FontAttributes="Bold" />
+                    <Label Text="17:30" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                </Grid>
+
+            </HorizontalStackLayout>
+        </Frame>
+
+
+        <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+            <HorizontalStackLayout>
+                <Image Source="success.png" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                <Grid>
+                    <Label Text="Thanks for purchasing" Padding="16" FontAttributes="Bold" />
+                    <Label Text="16:00" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                </Grid>
+
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+            <HorizontalStackLayout>
+                <Image Source="charanimation.jpg" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                <Grid>
+                    <Label Text="Characters Animation (NEW)" Padding="16" FontAttributes="Bold" />
+                    <Label Text="15:30" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                </Grid>
+
+            </HorizontalStackLayout>
+        </Frame>
+        
+    </VerticalStackLayout>
+</ContentPage>

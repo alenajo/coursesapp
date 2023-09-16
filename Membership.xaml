@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoursesApp.Membership"
+             Title="Membership"
+             BackgroundImageSource="bg.jpg">
+    
+    <VerticalStackLayout>
+        <Label Text="Select your plan" Margin="20,40,0,0" FontSize="24" FontAttributes="Bold"></Label>
+        <Label Text="No commitment, cancel anytime" Margin="20,-10,0,0" FontSize="17" ></Label>
+
+        <Frame HeightRequest="220" WidthRequest="330" Margin="0,20,0,0" Padding="0" BackgroundColor="#BBAAB8" HasShadow="True" HorizontalOptions="FillAndExpand">
+            <VerticalStackLayout Padding="20">
+                <Image Source="radiobutton.jpg" WidthRequest="20" HorizontalOptions="Start"></Image>
+                <Label Text="Monthly" FontAttributes="Bold" FontSize="26" HorizontalOptions="Center"></Label>
+                <Label Text="1 month free" Margin="8,15,7,0" FontAttributes="Bold" FontSize="24" HorizontalOptions="Center"></Label>
+                <Label Text=" then 10,99 €/month." FontSize="16" HorizontalOptions="Center"></Label>
+                <Label Text="Learn more" Margin="30" TextDecorations="Underline" FontSize="16" HorizontalOptions="Center"></Label>
+
+            </VerticalStackLayout>
+        </Frame>
+
+        <Frame HeightRequest="200" WidthRequest="330" Margin="0,20,0,0" Padding="0" BackgroundColor="#776483" HasShadow="True" HorizontalOptions="FillAndExpand">
+            <VerticalStackLayout Padding="20">
+                <Image Source="rbb.jpg" WidthRequest="20" HorizontalOptions="Start"></Image>
+                <Label Text="Annual" TextColor="#BBAEAE" FontAttributes="Bold" FontSize="26" HorizontalOptions="Center"></Label>
+                <Label Text="49.99 €/year" TextColor="#BBAEAE" Margin="8,15,7,0" FontAttributes="Bold" FontSize="24" HorizontalOptions="Center"></Label>
+
+                <Label Text="Learn more" TextColor="#BBAEAE" Margin="30" TextDecorations="Underline" FontSize="16" HorizontalOptions="Center"></Label>
+
+            </VerticalStackLayout>
+        </Frame>
+
+
+
+        <Frame HeightRequest="220" WidthRequest="330" Margin="0,20,0,0" Padding="0" BackgroundColor="#44426E" HasShadow="True" HorizontalOptions="FillAndExpand">
+            <VerticalStackLayout Padding="20">
+                <Image Source="rbbb.jpg" WidthRequest="20" HorizontalOptions="Start"></Image>
+                <Label Text="Premium" TextColor="#E99E75" FontAttributes="Bold" FontSize="26" HorizontalOptions="Center"></Label>
+                <Label Text="1 month free" TextColor="#E99E75" Margin="8,15,7,0" FontAttributes="Bold" FontSize="24" HorizontalOptions="Center"></Label>
+                <Label Text=" then 24,99 €/month." TextColor="#E99E75" FontSize="16" HorizontalOptions="Center"></Label>
+                <Label Text="Learn more" Margin="30" TextColor="#E99E75" TextDecorations="Underline" FontSize="16" HorizontalOptions="Center"></Label>
+
+            </VerticalStackLayout>
+        </Frame>
+        <Button Text="Next" WidthRequest="70" CornerRadius="20" HorizontalOptions="End" BackgroundColor="#44426E" ></Button>
+
+              
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
+             x:Class="CoursesApp.MainPage"
+             BackgroundImageSource="bg.jpg"
+             >
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="18"
+            Padding="20,60"
+            VerticalOptions="Center">
+
+            <HorizontalStackLayout
+            Spacing="20"
+            Padding="20,0"
+            >
+
+                <Label
+                Text="Hello Alex"
+                FontSize="32"
+                FontFamily="DM Sans"
+                HorizontalOptions="Start" />
+
+                <HorizontalStackLayout
+            Spacing="10"
+            Padding="85,0"
+            >
+
+                    <Image
+                Source="notification.jpg"
+                HeightRequest="40"
+                HorizontalOptions="End" />
+            
+                <Image
+                Source="heart.jpg"
+                HeightRequest="40"
+                HorizontalOptions="End" />
+                
+            </HorizontalStackLayout>
+
+            </HorizontalStackLayout>
+
+
+            <HorizontalStackLayout
+            Spacing="8"
+            Padding="0,0"
+            >
+
+                <Image
+                Source="search.jpg"
+                HeightRequest="40"
+                HorizontalOptions="Start" />
+
+            <Image
+                Source="list.jpg"
+                HeightRequest="40"
+                HorizontalOptions="End" />
+        
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout
+            Spacing="8"
+            Padding="0,0"
+            >
+
+            <Button Text="All" FontSize="16" WidthRequest="70" HeightRequest="44" BackgroundColor="#4C2A85" CornerRadius="20" HorizontalOptions="Start"/>
+                <Button Text="Popular" FontSize="16" TextColor="#4C2A85" WidthRequest="100" HeightRequest="44" BackgroundColor="White" CornerRadius="20" HorizontalOptions="Start"/>
+                <Button Text="Newest" FontSize="16" TextColor="#4C2A85" WidthRequest="100" HeightRequest="44" BackgroundColor="White" CornerRadius="20" HorizontalOptions="End"/>
+
+            </HorizontalStackLayout>
+
+            <Frame HeightRequest="300" Margin="0,10,0,0" Padding="0" HasShadow="True"  HorizontalOptions="FillAndExpand">
+                <Image Source="ui.png" HeightRequest="300" WidthRequest="300" />
+            </Frame>
+            
+            
+
+            <HorizontalStackLayout 
+                Spacing="170"
+                > 
+            <Label Margin="40,0,0,0" FontAttributes="Bold" Text="14 lessons"> 
+            </Label>
+                <Button Text="$ 50" CornerRadius="20" WidthRequest="70" HeightRequest="10"> </Button>
+            </HorizontalStackLayout>
+            <Label Margin="40,0,0,0"  FontAttributes="Bold" Text="UI" FontSize="30">
+            </Label>
+
+            <Label Margin="40,0,0,0" FontAttributes="Bold" Text="Advanced mobile interface design">
+            </Label>
+
+
+            <Frame HeightRequest="305" Margin="0,20,0,0" Padding="0" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <Image Source="html.jpg" HeightRequest="300" WidthRequest="300" />
+            </Frame>
+
+            <HorizontalStackLayout 
+                Spacing="170"
+                >
+                <Label Margin="40,0,0,0" FontAttributes="Bold" Text="25 lessons">
+                </Label>
+                <Button Text="$ 50" CornerRadius="20" WidthRequest="70" HeightRequest="10"></Button>
+            </HorizontalStackLayout>
+            <Label Margin="40,0,0,0"  FontAttributes="Bold" Text="HTML" FontSize="30">
+            </Label>
+
+            <Label Margin="40,0,0,0" FontAttributes="Bold" Text="Advanced web applications">
+            </Label>
+            
+            <!-- Notifications -->
+
+
+            <HorizontalStackLayout>
+
+                <Button Text=">" BackgroundColor="Transparent" TextColor="Black" FontSize="50">  </Button>
+
+
+                <Label Text="Notifications" FontSize="30" FontAttributes="Bold" Padding="60">
+                </Label>
+            </HorizontalStackLayout>
+
+
+            <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <HorizontalStackLayout>
+                    <Image Source="success.png" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                    <Grid>
+                        <Label Text="Course successfully enrolled" Padding="16" FontAttributes="Bold" />
+                        <Label Text="17:30" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                    </Grid>
+
+                </HorizontalStackLayout>
+            </Frame>
+
+
+            <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <HorizontalStackLayout>
+                    <Image Source="success.png" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                    <Grid>
+                        <Label Text="Thanks for purchasing" Padding="16" FontAttributes="Bold" />
+                        <Label Text="16:00" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                    </Grid>
+
+                </HorizontalStackLayout>
+            </Frame>
+
+            <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <HorizontalStackLayout>
+                    <Image Source="charanimation.jpg" Margin="20,0,0,0" WidthRequest="60"></Image>
+                    
+                    <Grid> 
+                    <Label Text="Characters Animation (NEW)" Padding="16" FontAttributes="Bold" />
+                    <Label Text="15:30" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                    </Grid>
+                    
+                </HorizontalStackLayout>
+            </Frame>
+
+
+            <!-- Wishlist -->
+
+
+            <HorizontalStackLayout>
+
+                <Button Text=">" BackgroundColor="Transparent" TextColor="white" FontSize="50"></Button>
+
+
+                <Label Text="Wishlist" FontSize="30" TextColor="White" FontAttributes="Bold" Padding="30">
+                </Label>
+            </HorizontalStackLayout>
+
+
+            <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <HorizontalStackLayout>
+                    <Image Source="proddesign.png"
+                        Margin="20,0,0,0" HeightRequest="100" WidthRequest="60"></Image>
+
+                    <Grid>
+                        <Label Text="Product design" Padding="16" FontAttributes="Bold" />
+                        <Label Text="22 lessons" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                    </Grid>
+
+                    <Grid>
+                    <Image Source="heart2.jpg" WidthRequest="90" HeightRequest="36" Margin="66,0,0,14"></Image>
+                    <Label Text="$ 19.99" Padding="0" Margin="80,50,0,10" FontAttributes="Bold" />
+                    </Grid>
+                    
+                </HorizontalStackLayout>
+            </Frame>
+
+
+            <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <HorizontalStackLayout>
+                    <Image Source="dfund.jpg" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                    <Grid>
+                        <Label Text="3D Design Fundamentals" Padding="16" FontAttributes="Bold" />
+                        <Label Text="22 lessons" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                    </Grid>
+
+                    <Grid>
+                        <Image Source="heart2.jpg" WidthRequest="90" HeightRequest="36" Margin="2,0,0,14"></Image>
+                        <Label Text="$ 19.99" Padding="0" Margin="20,50,0,10" FontAttributes="Bold" />
+                    </Grid>
+
+                </HorizontalStackLayout>
+            </Frame>
+
+            <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <HorizontalStackLayout>
+                    <Image Source="gamedesign.jpg" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                    <Grid>
+                        <Label Text="Game Design" Padding="16" FontAttributes="Bold" />
+                        <Label Text="22 lessons" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                    </Grid>
+
+                    <Grid>
+                        <Image Source="heart2.jpg" WidthRequest="90" HeightRequest="36" Margin="76,0,0,14"></Image>
+                        <Label Text="$ 19.99" Padding="0" Margin="90,50,0,10" FontAttributes="Bold" />
+                    </Grid>
+
+                </HorizontalStackLayout>
+            </Frame>
+
+            <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <HorizontalStackLayout>
+                    <Image Source="productdesign.jpg" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                    <Grid>
+                        <Label Text="3D Product Design" Padding="16" FontAttributes="Bold" />
+                        <Label Text="22 lessons" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                    </Grid>
+
+                    <Grid>
+                        <Image Source="heart2.jpg" WidthRequest="90" HeightRequest="36" Margin="50,0,0,14"></Image>
+                        <Label Text="$ 19.99" Padding="0" Margin="70,50,0,10" FontAttributes="Bold" />
+                    </Grid>
+
+                </HorizontalStackLayout>
+            </Frame>
+
+            <Frame HeightRequest="80" Margin="0,20,0,0" Padding="0" BackgroundColor="White" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <HorizontalStackLayout>
+                    <Image Source="dobjectshape.jpg" Margin="20,0,0,0" WidthRequest="60"></Image>
+
+                    <Grid>
+                        <Label Text="3D Object Shape Course" Padding="16" FontAttributes="Bold" />
+                        <Label Text="22 lessons" Padding="40" Margin="-20,0,0,0" TextColor="DimGray" FontAttributes="Bold" />
+                    </Grid>
+
+                    <Grid>
+                        <Image Source="heart2.jpg" WidthRequest="90" HeightRequest="36" Margin="13,0,0,14"></Image>
+                        <Label Text="$ 19.99" Padding="0" Margin="30,50,0,10" FontAttributes="Bold" />
+                    </Grid>
+
+                </HorizontalStackLayout>
+            </Frame>
+
+            <!-- Membership -->
+
+
+            <Label Text="Select your plan" Margin="20,40,0,0" FontSize="24" FontAttributes="Bold"></Label>
+            <Label Text="No commitment, cancel anytime" Margin="20,-10,0,0" FontSize="17" ></Label>
+
+            <Frame HeightRequest="220" WidthRequest="330" Margin="0,20,0,0" Padding="0" BackgroundColor="#BBAAB8" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <VerticalStackLayout Padding="20">
+                    <Image Source="radiobutton.jpg" WidthRequest="20" HorizontalOptions="Start"></Image>
+                    <Label Text="Monthly" FontAttributes="Bold" FontSize="26" HorizontalOptions="Center"> </Label>
+                    <Label Text="1 month free" Margin="8,15,7,0" FontAttributes="Bold" FontSize="24" HorizontalOptions="Center"></Label>
+                    <Label Text=" then 10,99 €/month." FontSize="16" HorizontalOptions="Center"></Label>
+                    <Label Text="Learn more" Margin="30" TextDecorations="Underline" FontSize="16" HorizontalOptions="Center"></Label>
+                
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame HeightRequest="200" WidthRequest="330" Margin="0,20,0,0" Padding="0" BackgroundColor="#776483" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <VerticalStackLayout Padding="20">
+                    <Image Source="rbb.jpg" WidthRequest="20" HorizontalOptions="Start"></Image>
+                    <Label Text="Annual" TextColor="#BBAEAE" FontAttributes="Bold" FontSize="26" HorizontalOptions="Center"></Label>
+                    <Label Text="49.99 €/year" TextColor="#BBAEAE" Margin="8,15,7,0" FontAttributes="Bold" FontSize="24" HorizontalOptions="Center"></Label>
+
+                    <Label Text="Learn more" TextColor="#BBAEAE" Margin="30" TextDecorations="Underline" FontSize="16" HorizontalOptions="Center"></Label>
+
+                </VerticalStackLayout>
+            </Frame>
+
+
+
+            <Frame HeightRequest="220" WidthRequest="330" Margin="0,20,0,0" Padding="0" BackgroundColor="#44426E" HasShadow="True" HorizontalOptions="FillAndExpand">
+                <VerticalStackLayout Padding="20">
+                    <Image Source="rbbb.jpg" WidthRequest="20" HorizontalOptions="Start"></Image>
+                    <Label Text="Premium" TextColor="#E99E75" FontAttributes="Bold" FontSize="26" HorizontalOptions="Center"></Label>
+                    <Label Text="1 month free" TextColor="#E99E75" Margin="8,15,7,0" FontAttributes="Bold" FontSize="24" HorizontalOptions="Center"></Label>
+                    <Label Text=" then 24,99 €/month." TextColor="#E99E75" FontSize="16" HorizontalOptions="Center"></Label>
+                    <Label Text="Learn more" Margin="30" TextColor="#E99E75" TextDecorations="Underline" FontSize="16" HorizontalOptions="Center"></Label>
+
+                </VerticalStackLayout>
+            </Frame>
+            <Button Text="Next" WidthRequest="70" CornerRadius="20" HorizontalOptions="End" BackgroundColor="#44426E" ></Button>
+
+            
+            <!-- Details -->
+            
+            
+            <VerticalStackLayout Padding="30" BackgroundColor="White">
+                <HorizontalStackLayout Spacing="70">
+                    <Image Source="back.jpg" WidthRequest="25"></Image>
+                    <Label Text="Details" FontAttributes="Bold" HorizontalOptions="Center" FontSize="32"></Label>
+                    <Image Source="emptyheart.jpg" WidthRequest="30" HorizontalOptions="End"></Image>
+                </HorizontalStackLayout>
+
+                <Frame WidthRequest="350" Padding="0" Margin="70">
+                    <Image Source="dfund.jpg" WidthRequest="350" HeightRequest="200"></Image>
+                </Frame>
+
+                <Label Text="3D Design Fundamentals" FontAttributes="Bold" FontSize="24" Margin="0,-40,0,0"></Label>
+                <Label Text="22 lessons" FontSize="16" TextColor="Gray" FontAttributes="Bold" Margin="0,10,0,0"></Label>
+                <Button Text="$19.99" WidthRequest="90" CornerRadius="20" HorizontalOptions="Start" BackgroundColor="#4C2A85" Margin="0,20,0,0" ></Button>
+
+                <Label Text="About this course" FontAttributes="Bold" FontSize="20" Margin="0,30,0,0"></Label>
+
+                <Label Text="In this course, we will introduce you to the world 
+                             of 3D Design, where you will start learning from 
+                             the basics . If you are active, in less than 1 month 
+                             you can get to the expert level." Margin="0,30,0,0"></Label>
+                <Button Text="Start Course" FontSize="20" FontAttributes="Bold" WidthRequest="250" CornerRadius="10" HorizontalOptions="Center" BackgroundColor="#4C2A85" Margin="0,80,0,0" ></Button>
+
+            </VerticalStackLayout>
+    
+            
+            
+            
+            
+            <!-- Log in -->
+
+         
+                    <VerticalStackLayout Spacing="5" Margin="0,90,0,60">
+                        <Label Text="Welcome!" FontSize="36" FontFamily="PlayfairDisplay" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center" />
+                        <Label Text="Log in to your account" FontSize="24" FontFamily="PlayfairDisplay" TextColor="Black" HorizontalTextAlignment="Center" />
+                    </VerticalStackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                            <Image Source="user.png" HeightRequest="20" WidthRequest="20" />
+                        </Frame>
+                        <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White"  HorizontalOptions="FillAndExpand">
+                            <Entry x:Name="entryUsername" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Username" Keyboard="Email" />
+                        </Frame>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                            <Image Source="password.png" HeightRequest="20" WidthRequest="20" />
+                        </Frame>
+                        <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White"  HorizontalOptions="FillAndExpand">
+                            <Entry x:Name="entrySifra" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" IsPassword="True" />
+                        </Frame>
+                    </StackLayout>
+
+
+                    <Label Text="Forgot password?"
+               HorizontalOptions="End"
+               Margin="0,-22,6,0"
+               FontSize="14"
+               FontAttributes="Bold"
+               TextColor="DimGray"/>
+
+
+            <Button Text="Sign In" FontSize="16" WidthRequest="110" HeightRequest="44" BackgroundColor="#292643" CornerRadius="20" HorizontalOptions="Center" />
+
+                    <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="Center">
+                        <Label Text="Don't have an account?" TextColor="Black" />
+                <Button Text="Sign up here" TextColor="#292643" Margin="0,-13,0,0" FontAttributes="Bold" BackgroundColor="Transparent" 
+                    Padding="6" BorderColor="Transparent" />
+                    </StackLayout>
+
+
+            <StackLayout Orientation="Vertical" Margin="0,120,0,0">
+                <Button Text="Back" BackgroundColor="#292643" WidthRequest="70" HorizontalOptions="Start" CornerRadius="20" />
+            </StackLayout>
+
+
+            <!-- Sign up -->
+
+            <VerticalStackLayout Spacing="5" Margin="0,40,0,20">
+                <Label Text="Sign Up" FontSize="36" FontFamily="PlayfairDisplay" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Center" />
+                <Label Text ="Create an account" FontSize="24" FontFamily="PlayfairDisplay" TextColor="Black" HorizontalTextAlignment="Center" />
+            </VerticalStackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                    <Image Source="user2.png" HeightRequest="20" WidthRequest="20" />
+                </Frame>
+                <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White"  HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="entryIme" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="First Name" Keyboard="Email" />
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                    <Image Source="user2.png" HeightRequest="20" WidthRequest="20" />
+                </Frame>
+                <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White"  HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="entryPrezime" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Last Name" Keyboard="Email" />
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                    <Image Source="email.png" HeightRequest="20" WidthRequest="20" />
+                </Frame>
+                <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White"  HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="entryEmail" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="E-mail" Keyboard="Email" />
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                    <Image Source="user.png" HeightRequest="20" WidthRequest="20" />
+                </Frame>
+                <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White"  HorizontalOptions="FillAndExpand">
+                    <Entry  Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Username" Keyboard="Email" />
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                    <Image Source="password.png" HeightRequest="20" WidthRequest="20" />
+                </Frame>
+                <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White"  HorizontalOptions="FillAndExpand">
+                    <Entry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" IsPassword="True" />
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="56" WidthRequest="56" CornerRadius="28">
+                    <Image Source="password.png" HeightRequest="20" WidthRequest="20" />
+                </Frame>
+                <Frame HeightRequest="45" Margin="-20,0,0,0" Padding="0" HasShadow="True" BorderColor="White"  HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="entryPotvrdiSifru" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Re-enter password" IsPassword="True" />
+                </Frame>
+            </StackLayout>
+
+            <Button Text="Confirm" WidthRequest="140" HeightRequest="50" BackgroundColor="#292643" CornerRadius="20" HorizontalOptions="Center" />
+
+            <StackLayout Orientation="Vertical" Margin="0,0,0,0">
+                <Button Text="Back" BackgroundColor="#292643" WidthRequest="70" HorizontalOptions="Start" CornerRadius="20" />
+            </StackLayout>
+
+            
+            <!-- Payment -->
+
+            <Label FontAttributes="Bold" FontSize="16" Text="PAYMENT DETAILS"></Label>
+            <Frame HeightRequest="660" CornerRadius="0" BackgroundColor="White" Opacity="0.8" BorderColor="White">
+                <VerticalStackLayout> 
+                    
+                <Grid> 
+                <Image Margin="-140,0,180,10" HeightRequest="25" Source="radiobutton.jpg"></Image>
+                        <Label Margin="45"  FontAttributes="Bold" Text="Credit or debit card"></Label>
+                    <HorizontalStackLayout>
+                        <Image WidthRequest="230" Margin="40,78,0,0" Source="cards.jpg"> </Image>
+                    </HorizontalStackLayout>
+
+                </Grid>
+                    <Label  FontAttributes="Bold" Margin="26,30,0,10" Text="Cardholder's name"></Label>
+                    <Frame HeightRequest="45" BackgroundColor="Transparent" Margin="0,0,0,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="330">
+                        <Entry  Margin="10,0,0,0" TextColor="Black" VerticalOptions="Center" Placeholder="Name on card" Keyboard="Email" />
+                    </Frame>
+
+                    <Label  FontAttributes="Bold" Margin="26,20,0,10" Text="Card number"></Label>
+                    <Frame HeightRequest="45" BackgroundColor="Transparent" Margin="0,0,0,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="330">
+                        <Entry  Margin="10,0,0,0" VerticalOptions="Center" Placeholder="0000 0000 0000 0000" Keyboard="Email" />
+                    </Frame>
+
+
+               
+                    
+                    <Label  FontAttributes="Bold"  Margin="26,20,0,10" Text="Expiry date"></Label>
+                    <Frame HeightRequest="45" BackgroundColor="Transparent" Margin="0,0,160,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="130">
+                        <Entry  Margin="10,0,0,0" VerticalOptions="Center" Placeholder="MM / YY" Keyboard="Email" />
+                    </Frame>
+
+                    <Label  FontAttributes="Bold" Margin="26,20,0,10" Text="Security code"></Label>
+                    <Frame HeightRequest="45" BackgroundColor="Transparent" Margin="0,0,160,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="130">
+                        <Entry  Margin="10,0,0,0" VerticalOptions="End" Placeholder="i" Keyboard="Email" />
+                    </Frame>
+
+                    <Grid>
+                        <Image Margin="-140,0,180,0" HeightRequest="20" Source="rbe.jpg"></Image>
+                        <Label FontAttributes="Bold" Margin="45" Text="Paypal"></Label>
+                        <HorizontalStackLayout>
+                            <Image WidthRequest="120" Margin="40,78,0,0" Source="paypal.jpg"></Image>
+                        </HorizontalStackLayout>
+
+                    </Grid>
+
+                </VerticalStackLayout>
+            </Frame>
+
+
+
+
+
+            <Frame HeightRequest="280" CornerRadius="0" BackgroundColor="White" Opacity="0.8" BorderColor="White">
+                <VerticalStackLayout>
+
+                    <Label FontAttributes="Bold" Margin="26,0,0,10" Text="Country"></Label>
+                    <Frame HeightRequest="45" BackgroundColor="white" Margin="0,0,140,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="330">
+                        <Entry  Margin="10,0,0,0" TextColor="Black" VerticalOptions="Center" Placeholder="Country" Keyboard="Email" />
+                    </Frame>
+
+                    <Label FontAttributes="Bold" Margin="26,20,0,10" Text="Address"></Label>
+                    <Frame HeightRequest="45" BackgroundColor="white" Margin="0,0,140,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="330">
+                        <Entry Margin="10,0,0,0" VerticalOptions="Center" Placeholder="Street address" Keyboard="Email" />
+                    </Frame>
+
+                    <HorizontalStackLayout Margin="14,20,0,0" Spacing="-120"> 
+
+                    <Frame HeightRequest="45" BackgroundColor="White" Margin="0,0,160,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="150">
+                        <Entry  Margin="10,0,0,0" VerticalOptions="Center" Placeholder="City" Keyboard="Email" />
+                    </Frame>
+
+                    <Frame HeightRequest="45" BackgroundColor="White" Margin="0,0,160,0" Padding="0" HasShadow="True" BorderColor="Black" WidthRequest="130">
+                        <Entry  Margin="10,0,0,0" VerticalOptions="End" Placeholder="Zip code" Keyboard="Email" />
+                    </Frame>
+
+                    </HorizontalStackLayout>
+                
+
+                </VerticalStackLayout>
+            </Frame>
+
+
+            <Frame HeightRequest="66" CornerRadius="0" BackgroundColor="White" Opacity="0.8" BorderColor="White">
+                <Label FontSize="16" FontAttributes="Bold" Text="Total amount                                             $ 10.99" >
+                    
+                </Label>
+            </Frame>
+
+            <Button Margin="0,20,0,0" Text="Make payment" WidthRequest="260" FontSize="20" BackgroundColor="#292643"></Button>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
